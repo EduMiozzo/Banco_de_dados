@@ -1,0 +1,26 @@
+create table cadastro(
+Id int primary key,
+Nome varchar2(50),
+Idade int,
+Sexo varchar2(2)
+);
+
+Insert into cadastro (Id,Nome,Idade,Sexo)
+values (1,'Ana',11,'F');
+
+Insert into cadastro (Id,Nome,Idade,Sexo)
+values(2,'Bruno',12,'M');
+
+Insert into cadastro (Id,Nome,Idade,Sexo)
+values(3,'Caio',34,'M');
+
+Insert into cadastro (Id,Nome,Idade,Sexo)
+values(4,'Daniel',56,'M');
+
+Insert into cadastro (Id,Nome,Idade,Sexo)
+values(5,'Estevão',98,'M');
+
+select * from cadastro
+
+where
+sexo= 'F'
